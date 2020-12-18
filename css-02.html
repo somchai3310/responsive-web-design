@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-02</title>
+</head>
+
+<body>
+  <h2>margin พื้นที่ด้าน นอก</h2>
+  <h2>margin พื้นที่ด้าน ใน</h2>
+  <p>padding right เพิ่มพื้นที่ด้านขวา ตัวหนังสือจะเลื่อนไปซ้าย</p>
+  <p>margin: 50px; --> margin: สี่ด้าน</p>
+  <p>margin: 250px 50px; --> margin: แกน(y) แกน(x)</p>
+  <h3 class="injected-text">margin</h3>
+
+  <div class="box yellow-box">
+    <h3 class="box red-box">padding</h3>
+    <h3 class="box blue-box">padding</h3>
+  </div>
+</body>
+
+</html>
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+</style>

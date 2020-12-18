@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 class="blue-text pink-text">Hello World! Override</h1>
+    <h1 class="blue-text pink-text">2 class ใน h1 เรียงลำดับสีจาก style บนลงล่าง มาหลังมาทับ</h1>
+    <h1 id="orange-text" class="blue-text pink-text">id จะใหญ่กว่า class จะอยู่ที่ไหนก็ตาม</h1>
+    <h1 id="orange-text" class="blue-text pink-text" style="color:white">inline > id > class ไม่ต้องพูด เจอ inline ไป</h1>
+    <h1 id="orange-text" class="blue-text pink-textIm" style="color:white">!important ขอชิงเด่นไปเลยนะ VIP</h1>
+</body>
+
+</html>
+<style>
+    body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+    }
+
+    .pink-text {
+        color: pink;
+    }
+    .pink-textIm {
+        color: pink!important;
+    }
+
+    .blue-text {
+        color: blue;
+    }
+
+    #orange-text {
+        color: orange;
+    }
+</style>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> -->
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 style="color: red;">CatPhotoApp inline</h1>
+  <h3>CatPhotoApp h3 style</h3>
+  <h2 class="red-text">CatPhotoApp class</h2>
+  <h2 class="import-text">CatPhotoApp Import a Google Font</h2>
+  <h2 class="degrade-text">CatPhotoApp font-หลัก ใช้ไม่ได้จะใช้ font-รอง</h2>
+  <img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat">
+  <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat">
+  <img class="smaller-image thick-green-border-50per" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat">
+  <div class="silver-background">
+    <p>bg color na</p>
+  </div>
+  <div id="cssID">
+    <p>bg color ID</p>
+  </div>
+  <pre>vv [attr=value] vv</pre>
+  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+  <main>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </main>
+</body>
+
+</html>
+
+<style>
+  h3 {
+    color: blue;
+  }
+
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .import-text {
+    font-family: Lobster;
+  }
+
+  .degrade-text {
+    font-family: Orbitron, sans-serif;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    /* ขอบโค้ง */
+    border-radius: 10px;
+  }
+
+  .thick-green-border-50per {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .silver-background {
+    background-color: silver;
+  }
+
+  #cssID {
+    background-color: green;
+  }
+
+  [type='radio'] {
+    margin: 20px 0px 20px 0px;
+  }
+</style>
